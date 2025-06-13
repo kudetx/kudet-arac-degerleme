@@ -1,0 +1,36 @@
+# KUDET: İkinci El Araç Değerleme Sistemi
+# KUDET: İkinci El Araç Değerleme Sistemi
+
+**"Aracınız kaç para eder? KUDET bilir!"**
+
+KUDET, ikinci el araçlar için makine öğrenmesi destekli fiyat tahmini yapan bir Python uygulamasıdır.
+
+## Özellikler
+
+- 📊 Teknik ve temel verilerle fiyat tahmini
+- 🧠 Makine öğrenmesi modelleri (Random Forest, Linear Regression, vb.)
+- 🌐 Flask arayüzü
+- 🔎 Veriye dayalı karar desteği
+
+## Kurulum
+
+```bash
+pip install kudet
+## Kullanım
+
+```python
+from kudet.main import predict_price
+
+sample_car = {
+    "marka": "Renault",
+    "model": "Clio",
+    "yıl": 2016,
+    "kilometre": 85000,
+    "vites": "manuel",
+    "yakıt": "benzin"
+}
+
+print(predict_price(sample_car))
+## Lisans
+
+
