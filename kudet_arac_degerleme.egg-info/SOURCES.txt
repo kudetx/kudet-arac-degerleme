@@ -1,8 +1,10 @@
 README.md
 setup.py
-kudet_arac_degerleme/__init__.py
-kudet_arac_degerleme/main.py
-kudet_arac_degerleme/model_utils.py
+lineer_regresyon.ipynb
+classification.ipynb
+statistic.ipynb
+cleaned_data.csv
+requirements.txt
 kudet_arac_degerleme.egg-info/PKG-INFO
 kudet_arac_degerleme.egg-info/SOURCES.txt
 kudet_arac_degerleme.egg-info/dependency_links.txt
