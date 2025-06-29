@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 setup(
     name="kudet-arac-degerleme",
     version="1.0.0",
-    author="Binnur Soztutar, Mert Çolakoğlu, Emrah Tunç",
-    author_ID= "210316084, 220316081, 210316082",
+    author="Binnur Soztutar, Mert Çolakoğlu, Emrah Tunç", "Burak Umut Yenilmez"
+    author_ID= "210316084, 220316081, 210316082", "200316064"
     description="İkinci El Araç Değerleme Uygulaması",
     packages=find_packages(),
     install_requires=[
